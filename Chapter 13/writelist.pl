@@ -1,3 +1,3 @@
 writelist([]).
 writelist([H|T]):-
-	swrite(H), nl, writelist(T).
+	write(H), nl, writelist(T).
